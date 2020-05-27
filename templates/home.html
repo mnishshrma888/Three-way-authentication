@@ -1,0 +1,217 @@
+﻿<html lang="en">
+<head>
+    {% load static %}
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<link rel="shortcut icon" type="image/x-icon" href="{%static 'g1.gif'%}" />
+<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+<meta name="description" content="">
+<meta name="author" content="">
+<link rel="icon" href=" ">
+<title>home</title>
+
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+<!-- Bootstrap core CSS -->
+<link href="{%static 'C:\Users\Manish sharma\PycharmProjects\django1\newapp\static\css\bootstrap.min.css'%}" rel="stylesheet">
+<!-- Custom styles for this template -->
+<link href="{%static 'C:\Users\Manish sharma\PycharmProjects\django1\newapp\static\css\custom.css'%}" rel="stylesheet">
+
+<!-- Helper Styles -->
+<link href="{%static 'C:\Users\Manish sharma\PycharmProjects\django1\newapp\static\css\loaders.css'%}" rel="stylesheet">
+<link href="{%static 'C:\Users\Manish sharma\PycharmProjects\django1\newapp\static\css\swiper.min.css'%}" rel="stylesheet">
+<link rel="stylesheet" href="{%static 'C:\Users\Manish sharma\PycharmProjects\django1\newapp\static\css\animate.min.css'%}">
+<link rel="stylesheet" href="{%static 'C:\Users\Manish sharma\PycharmProjects\django1\newapp\static\css\nivo-lightbox.css'%}">
+
+<!-- Font Awesome Style -->
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+ </head>
+<body>
+<div class="loader loader-bg">
+  <div class="loader-inner ball-clip-rotate-pulse">
+    <div></div>
+    <div></div>
+  </div>
+</div>
+<nav class="navbar navbar-toggleable-md mb-4 top-bar navbar-static-top sps sps--abv">
+        <div class="container">
+      <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarCollapse1" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <a class="navbar-brand" href="/">3factor<span>Authentication</span></a>
+      <div class="collapse navbar-collapse" id="navbarCollapse1">
+        <ul class="navbar-nav ml-auto">
+
+        <li class="nav-item active"> <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a> </li>
+        <li class="nav-item"> <a class="nav-link" href="/login">login</a> </li>
+            <li class="nav-item"> <a class="nav-link" href="/signup">Signup</a> </li>
+        <!--<li class="nav-item"> <a class="nav-link" href="/about">about</a> </li>-->
+        </ul>
+      </div>
+            </div>
+    </nav>
+
+
+	<!-- Swiper Silder
+    ================================================== --> 
+<!-- Slider main container -->
+<div class="swiper-container main-slider" id="myCarousel">
+  <div class="swiper-wrapper">
+    <div class="swiper-slide slider-bg-position" style="background:url({%static 's2.jfif'%})" data-hash="slide1">
+      <h2></h2>
+    </div>
+    <div class="swiper-slide slider-bg-position" style="background:url({%static 'g3.gif'%})" data-hash="slide2">
+      <h2>
+      </h2>
+    </div>
+    <div class="swiper-slide slider-bg-position" style="background:url({%static 'g9.gif'%})" data-hash="slide2">
+    </div>
+  </div>
+  <!-- Add Pagination -->
+  <div class="swiper-pagination"></div>
+  <!-- Add Navigation -->
+  <div class="swiper-button-prev"><i class="fa fa-chevron-left"></i></div>
+  <div class="swiper-button-next"><i class="fa fa-chevron-right"></i></div>
+</div>
+
+<div class='container'style='margin-down:-200px;'>
+<div class='row p-4'>
+  <div class='container-fluid'>
+    <div class='row'style=''>
+    <div class='col-md-3 p-1 p-1'>
+    
+      <div class="card p-4 rounded-0"style='height:500px;background-color:black;color:white;border-color:white;;'>
+      <img src="{%static 'g11.gif'%}" alt="Cinque Terre" width="200" height="200px"><br>
+          <i class='icofont icofont-bars icofont-4x text-light text-center'> </i>
+            <div class="card-body">
+            <h5 class="card-title text-center text-light">NETWORK SECURITY</h5>
+            <p class="card-text text-center text-light"><b> which manages the network security and the data which is uploaded on the online server</b><br><br>
+                    <a href="C:\Users\lenovo\Desktop\web development\New folder (2)\21june\collsaible more text vala.html" class="btn btn-info" role="button">Read More</a>
+            </p>
+        </div>
+    </div>
+    </div>
+
+    <div class='col-md-3 p-1 p-1'>
+    
+      <div class="card p-4 rounded-0" style='height:450px;background-color:black;color:white;border-color:white;'>
+      <img src="{%static 'g12.gif'%}" alt="Cinque Terre" width="200" height="200px"><br>
+          <i class='icofont icofont-bars icofont-4x text-light text-center'> </i>
+           <div class="card-body" style='background-image:{%static 'g12.gif'%}'>
+            <h5 class="card-title text-center text-light">APPLICATION SECURITY</h5>
+            <p class="card-text text-center text-light"><b>which secures the application part of the security</b><br><br>
+                    <a href="C:\Users\lenovo\Desktop\web development\New folder (2)\21june\collsaible more text vala.html" class="btn btn-info" role="button">Read More</a>
+            </p>
+        </div>
+    </div>
+    </div>
+    <div class='col-md-3 p-1 p-1'>
+    
+      <div class="card p-3 rounded-0" style='height:450px;background-color:blaCK;color:white;border-color:white;'>
+      <img src="{%static 'g13.gif'%}" alt="Cinque Terre" width="200" height="200px"><br>
+          <i class='icofont icofont-bars icofont-4x text-light text-center'> </i>
+            <div class="card-body">
+            <h5 class="card-title text-center text-light">DATA SECURITY</h5>
+            <p class="card-text text-center text-light"><b>which helps to secutre the data and maintain its security</b><br><br>
+                    <a href="C:\Users\lenovo\Desktop\web development\New folder (2)\21june\collsaible more text vala.html" class="btn btn-info" role="button">Read More</a>
+            </p>
+        </div>
+    </div>
+    </div>
+    <div class='col-md-3 p-1 p-1'>
+    
+      <div class="card p-4 rounded-0"style='height:500px;background-color:black;color:white;border-color:white;;'>
+      <img src="{%static 'g7.gif'%}" alt="Cinque Terre" width="200" height="200px"><br>
+          <i class='icofont icofont-bars icofont-4x text-light text-center'> </i>
+            <div class="card-body">
+            <h5 class="card-title text-center text-light">CLOUD SECURITY</h5>
+            <p class="card-text text-center text-light"><b> which manages the cloud security and the data which is uploaded on the online server</b><br><br>
+                    <a href="C:\Users\lenovo\Desktop\web development\New folder (2)\21june\collsaible more text vala.html" class="btn btn-info" role="button">Read More</a>
+            </p>
+        </div>
+    </div>
+    </div>
+    
+        </div>
+    
+    
+      </div>
+    </div>
+                     
+                     
+  </div>
+  </div>
+  </div>
+   </div>
+
+<div class='container-fluid 'style='background-image:url({%static 'images (1).jfif'%});background-size:cover;background-attachment:fixed;'>
+<div class='row pb-4 'style='background-color:rgba(0,0,0,0.8);'>
+<div class='container'>
+            <div class="row text-light">
+              <div class='col-md-12 pb-4'>
+                  <h2 id='Natural'class='text-center  pt-4'> About the CYBER SECURITY</h2>
+                  <hr class='bg-light'style='width:100px;border-width:5px;'>
+
+              </div>
+                <div class="col-md-4 ">
+                    <img src = "{%static 'images (2).jfif'%}" width="90%" height="350px" class="rounded-0 "style='box-shadow:0px 0px 10px 0px black;' >
+                </div>
+                <div class="col-md-8">
+               
+                    <p class="text-justify text-light mt-4"style='font-family:century gothic;line-height:2;'> Cyber security is important because government, military, corporate, financial, and medical organizations collect, process, and store unprecedented amounts of data on computers and other devices. A significant portion of that data can be sensitive information, whether that be intellectual property, financial data, personal information, or other types of data for which unauthorized access or exposure could have negative consequences. Organizations transmit sensitive data across networks and to other devices in the course of doing businesses, and cyber security describes the discipline dedicated to protecting that information and the systems used to process or store it. As the volume and sophistication of cyber attacks grow, companies and organizations, especially those that are tasked with safeguarding information relating to national security, health, or financial records, need to take steps to protect their sensitive business and personnel information. As early as March 2013, the nation’s top intelligence officials cautioned that cyber attacks and digital spying are the top threat to national security, eclipsing even terrorism..</p>
+                    
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-12 pt-4 text-light">
+                    <p class="text-justify"style='font-family:century gothic '>An operating system is the primary software that manages all the hardware and other software on a computer. The operating system, also known as an “OS,” interfaces with the computer’s hardware and provides services that applications can use.</p>
+                    <p class="text-justify"style='font-family:century gothic '>An operating system is the primary software that manages all the hardware and other software on a computer. The operating system, also known as an “OS,” interfaces with the computer’s hardware and provides services that applications can use.</p>
+                </div>
+            </div></div>
+          </div>
+        </div>
+
+    <div class="card" >
+  <div class="navbar navbar-dark bg-dark" >
+    <h2><font color="white"> Subscribe to us</font></h2>
+  </div>
+  <div class="navbar navbar-dark bg-dark">
+      <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="your E-mail">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Subscribe</button>
+    </form>
+
+        <div class="copyright_bar">
+			<span><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --><font color="white">
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="/face" >3FactorVerification</a>
+
+            </font></span>
+		</div>
+  </div>
+</div>
+
+
+
+
+ <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+
+
+<!-- Bootstrap core JavaScript
+    ================================================== --> 
+<!-- Placed at the end of the document so the pages load faster --> 
+<script src="{%static 'C:\Users\Manish sharma\PycharmProjects\django1\newapp\static\js\jquery.min.js'%}" ></script>
+<script src="{%static 'C:\Users\Manish sharma\PycharmProjects\django1\newapp\static\js\bootstrap.min.js'%}"></script>
+<script src="{%static 'C:\Users\Manish sharma\PycharmProjects\django1\newapp\static\js\scrollPosStyler.js'%}"></script>
+<script src="{%static 'C:\Users\Manish sharma\PycharmProjects\django1\newapp\static\js\swiper.min.js'%}"></script>
+<script src="{%static 'C:\Users\Manish sharma\PycharmProjects\django1\newapp\static\js\isotope.min.js'%}"></script>
+<script src="{%static 'C:\Users\Manish sharma\PycharmProjects\django1\newapp\static\js\nivo-lightbox.min.js'%}"></script>
+<script src="{%static 'C:\Users\Manish sharma\PycharmProjects\django1\newapp\static\js\wow.min.js'%}"></script>
+<script src="{%static 'C:\Users\Manish sharma\PycharmProjects\django1\newapp\static\js\core.js'%}"></script>
+
+
+</body>
+</html>
